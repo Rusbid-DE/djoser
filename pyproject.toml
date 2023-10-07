@@ -37,7 +37,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.8"
 djangorestframework-simplejwt = "^5.0"
-django-templated-mail = "^1.1.1"
+django-templated-mail = {git = "https://github.com/Rusbid-DE/django-templated-mail"}
 social-auth-app-django = "^5.0.0"
 djet = { version = "^0.3.0", optional = true }
 webauthn = { version = "<1.0", optional = true }
